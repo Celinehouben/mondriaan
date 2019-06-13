@@ -2,8 +2,7 @@
 var weatherjson;
 
 //vul eigen API key in tussen de "" (check de readme op https://github.com/CocoDeijmann/mondriaan/)
-var api_key = "";
-var id = "2759794";
+var api_key = "4474be4510c1c03cd2102fcac98869e0";
 // Amsterdam = 2759794
 // Reykjavik = 3413829
 // Sao Paulo = 3448439
@@ -61,8 +60,8 @@ function getWeather() {
 }
 
 function display() {
-  x = humidity;
-  y = windDirection;
+  x = mouseX;
+  y = mouseY;
   s = windSpeed;
   t = temp;
 
